@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="{%static 'styles/register-login.css' %}">
+</head>
+<body>
+
+<div id="container1">
+<h2>LOGIN</h2>
+</div>
+<div id="container">
+<form action="login" method="post">
+
+	<div class="content">
+		{% csrf_token %}
+
+    <label for="uname">Username</label>
+    <input type="text" name="username" placeholder="Username" id="uname" class="tfield" required>
+
+    <label for="pass">Password</label>&nbsp
+    <input type="password" name="password" placeholder="Password" id="pass" class="tfield" required>
+
+    <br>
+        <input type="submit" name="Submit" value="Login" class="submit"><br>
+	<font color=black>    Don't have an account yet?</font>
+
+        <a href="register">	<input type="button" name="Submit" value="Register" class="submit"></a>
+
+        <div>
+    {% for message in messages %}
+    <h3>{{message}}</h3>
+    {% endfor %}
+</div>
+	</div>
+</form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+

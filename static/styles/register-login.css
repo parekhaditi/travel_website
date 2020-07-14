@@ -1,0 +1,96 @@
+    body{
+    margin:0px;
+    background-attachment:fixed;
+    padding:0px;
+    font-family:'Lato',sans-serif;
+    background-image: url(/static/images/rl-background.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+
+
+    }
+
+
+
+    #container{
+
+    background-color:#FFFFFF;
+    opacity:0.9;
+
+
+    margin-left:450px;
+
+    background: hsla(180,0%,10%,0.25);
+    margin-right:400px;
+    margin-bottom:100px;
+    padding-top:10px;
+    padding-bottom:40px;
+    padding-left:70px;
+
+    }
+    #container1{
+    color:#394E9A;
+    background-color:#000000;
+    opacity:1.2;
+
+
+    margin-left:450px;
+    margin-top:100px;
+    background: hsla(180,0%,10%,0.25);
+    margin-right:400px;
+
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:70px;
+
+    }
+    .content{
+
+    margin-top:10px;
+
+    }
+    .tfield{
+
+        color:black;
+        text-align:center;
+        display:block;
+        margin-top:20px;
+        margin-left:-5px;
+        margin-bottom:10px;
+        height:40px;
+        width:300px;
+        font-size:16;
+        background-color:white;
+        border-bottom:0px;
+        border-top:0px;
+        border-left:0px;
+        border-right:0px;
+
+    }
+    .tfield:hover{
+        background-color:#FFFFFF;
+    }
+
+    .submit{
+        margin-top:10px;
+        width:300px;
+        height:50px;
+        font-size:18;
+        font-weight:bold;
+        background-color:#394E9A;
+        border-bottom:0px;
+        border-top:0px;
+        border-left:0px;
+        border-right:0px;
+
+        transtion: all 2s ease-in-out;
+    }
+    .submit:hover{
+        background-color:white;
+        transtion: all 2s ease-in-out;
+    }
+    .submit:active{
+        color:#FFFFFF;
+        background-color:#424547;
+    }
+
